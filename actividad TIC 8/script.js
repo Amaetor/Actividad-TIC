@@ -51,6 +51,9 @@ function MensajeSwitch() {
         case 5:
         case 6:
             document.getElementById("resultado").innerHTML = "Buenas noches";
+        break;
+        default:
+            document.getElementById("resultado").innerHTML = "Esta respuesta no es válida";
     }
 
 }
