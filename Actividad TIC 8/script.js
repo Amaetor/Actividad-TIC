@@ -57,3 +57,9 @@ function MensajeSwitch() {
     }
 
 }
+
+        default:
+            document.getElementById("resultado").innerHTML = "Esta respuesta no es válida";
+    }
+
+}
