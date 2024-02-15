@@ -19,7 +19,7 @@ function MensajeIf() {
 }
 
 function MensajeSwitch() {
-    let mensaje1 = parseInt(document.getElementById("hora"), 10);
+    let mensaje1 = parseInt(document.getElementById("hora").value, 10);
     switch (mensaje1) {
         case 7:
         case 8:
